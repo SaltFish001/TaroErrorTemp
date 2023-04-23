@@ -1,0 +1,27 @@
+.ZJY_ItemCol {
+  background: linear-gradient(#4a90e2, #50e3c2);
+  font-size: 16px;
+  min-height: 200rpx;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 4px;
+}
+.ZJY_MainView {
+  -webkit-transform: translateZ(0);
+  position: relative;
+  overflow: visible;
+  top: 20px;
+  width: 100%;
+  height: calc(100% - 20px);
+  background-color: #ffffff;
+  border-radius: 10px 10px 0 0;
+  opacity: 1;
+}
+.ZJY_Content {
+  height: calc(100% - 88px);
+  position: relative;
+  margin-left: 20px;
+  margin-right: 20px;
+  overflow: scroll;
+}

@@ -1,0 +1,51 @@
+{
+  "compilerOptions": {
+    "target": "es2017",
+    "module": "commonjs",
+    "removeComments": false,
+    "preserveConstEnums": true,
+    "moduleResolution": "node",
+    "experimentalDecorators": true,
+    "useDefineForClassFields": true,
+    "noImplicitAny": false,
+    "allowSyntheticDefaultImports": true,
+    "outDir": "lib",
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "strictNullChecks": true,
+    "sourceMap": true,
+    "baseUrl": ".",
+    "rootDir": ".",
+    "jsx": "react-jsx",
+    "allowJs": true,
+    "resolveJsonModule": true,
+    "typeRoots": [
+      "node_modules/@types"
+    ],
+    "paths": {
+      "@/components/*": [
+        "./src/components/*"
+      ],
+      "@/pages/*": [
+        "./src/pages/*"
+      ],
+      "@/assets/*": [
+        "./src/assets/*"
+      ],
+      "@/icons/*": [
+        "./src/assets/icons/*"
+      ],
+      "@/stores/*": [
+        "./src/stores/*"
+      ],
+      "@/requests/*": [
+        "./src/requests/*"
+      ]
+    }
+  },
+  "include": [
+    "./src",
+    "./types",
+  ],
+  "compileOnSave": false,
+}
